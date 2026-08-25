@@ -1,0 +1,180 @@
+Project Name : FarmVerse-Precision Agriculture Management Platform
+
+Team: Team-A
+
+Module: Documentation
+
+Prepared By: Ananya.C.Y
+
+Branch: ananya_documentation
+
+Date: 02/07/2026
+
+Project Name:
+FarmVerse-Precision Agriculture Management Platform
+
+Problem Statement:
+Agriculture is the backbone of many economies, yet farmers continue to face challenges such as
+unpredictable weather conditions, inefficient irrigation practices, improper fertilizer usage,
+pest infestations, and delayed decision-making reduce crop productivity and increase 
+production costs.
+There is a growing need for a smart digital platform that provides timely recommendations and 
+helps farmers make informed decisions using modern technologies such as Artificial Intelligence(AI),
+Machine Learning(ML), and Data Analytics.
+
+Proposed Solution:
+FarmVerse is a smart Precision Agriculture Management Platform designed to support farmers 
+by providing intelligent, data-driven agricultural recommendations. The platform combines 
+weather forecasting, soil analysis, crop recommendation, irrigation planning,
+fertilizer suggestions, and pest monitoring into a unified system.
+The solution enables farmers to improve productivity, reduce resource wastage, 
+optimize farming practices, and promote sustainable agriculture through technology-driven insights.
+
+Objectives:
+The main objectives of FarmVerse are:
+1. Improve crop productivity using intelligent recommendations.
+2. Assist farmers in selecting suitable crops based on soil and weather conditions.
+3. Optimize irrigation scheduling to conserve water.
+4. Recommend appropriate fertilizers based on soil health.
+5. Monitor pest outbreaks and provide preventive suggestions.
+6. Promote sustainable and precision farming practices.
+
+Solution Architecture:
+                           Farmer
+                              │
+                              ▼
+                 FarmVerse Web Application
+                              │
+               ┌──────────────┬──────────────┬
+               │              │              │
+               ▼              ▼              ▼
+         Weather Module   Soil Analysis   Crop Recommendation
+                │              │              │
+                └──────────────┼──────────────┘
+                               ▼
+                   Irrigation Management Module
+                               │
+                               ▼
+                 Fertilizer Recommendation Module
+                               │
+                               ▼
+                     Pest Monitoring Module
+                               │
+                               ▼
+                      Database & Analytics
+                               │
+                               ▼
+                Reports, Alerts & Recommendations
+
+Tech Stack:
+
+Frontend:
+1. React.js
+2. HTML5
+3. CSS3
+4. JavaScript
+
+Backend:
+1. Spring Boot (Java)
+
+Database:
+1. MySQL
+
+Tools:
+1. Git & GitHub
+2. VS Code
+3. IntelliJ IDEA
+4. Postman
+
+APIs:
+1. OpenWeather API
+2. Google Maps/OpenStreetMap API
+
+System Modules:
+1. User Authentication
+2. Farmer Dashboard
+3. Farm Management
+4. Weather Monitoring
+5. Soil Analysis
+6. Crop Recommendation
+7. Irrigation Management
+8. Fertilizer Recommendation
+9. Pest & Disease Monitoring
+10. Reports & Analytics
+11. Notifications
+
+Database Design:
+
+User:
+1. User ID
+2. Name
+3. Email
+4. Phone Number
+5. Password
+6. Role
+
+Farm:
+1. Farm ID
+2. User ID
+3. Farm Name
+4. Farm Size
+5. Location
+6. Soil Type
+
+Weather:
+1. Weather ID
+2. Farm ID
+3. Temperature
+4. Humidity
+5. Rainfall
+6. Forecast Date
+
+Soil Analysis:
+1. Soil ID
+2. pH Value
+3. Nitrogen
+4. Phosphorus
+5. Potassium
+6. Moisture
+
+Crop Recommendation:
+1. Recommendation ID
+2. Crop Name
+3. Season
+4. Recommendation Score
+
+Irrigation:
+1. Irrigation ID
+2. Water Requirement
+3. Irrigation Schedule
+
+Fertilizer:
+1. Fertilizer ID
+2. Fertilizer Name
+3. Quantity
+4. Application Date
+
+Pest Monitoring:
+1. Pest ID
+2. Pest Name
+3. Severity
+4. Suggested Treatment
+
+Expected Outcome:
+1. Improved crop productivity
+2. Better water management
+3. Reduced fertilizer wastage
+4. Accurate weather-based farming decisions
+5. Sustainable agriculture
+6. Better farmer decision support
+
+Conclusion:
+FarmVerse aims to transform traditional farming into smart, technology-driven agriculture
+by combining weather intelligence, soil analysis, crop recommendations, and resource
+optimization. The platform supports farmers in making informed decisions, improving
+productivity, and promoting sustainable agricultural practices
+
+
+
+
+

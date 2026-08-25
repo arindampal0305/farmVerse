@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8fff8;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Global Dark Mode Overrides */
+html.dark body {
+  background: #0f172a !important; /* slate-900 */
+  color: #f8fafc !important; /* slate-50 */
+}
+
+/* Base Cards & Containers */
+html.dark .bg-white, 
+html.dark .bg-slate-50, 
+html.dark .bg-gray-50,
+html.dark .bg-emerald-50,
+html.dark .bg-green-50,
+html.dark .bg-blue-50,
+html.dark .bg-amber-50,
+html.dark .bg-cyan-50,
+html.dark .bg-purple-50 {
+  background-color: #1e293b !important; /* slate-800 */
+  border-color: #334155 !important; /* slate-700 */
+  color: #e2e8f0 !important;
+}
+
+/* Text Overrides */
+html.dark .text-slate-800,
+html.dark .text-gray-800,
+html.dark .text-gray-700,
+html.dark .text-gray-600,
+html.dark .text-gray-500 {
+  color: #cbd5e1 !important; /* slate-300 */
+}
+
+html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6 {
+  color: #f8fafc !important; /* slate-50 */
+}
+
+/* Input Fields */
+html.dark input, 
+html.dark select, 
+html.dark textarea {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+html.dark input::placeholder {
+  color: #64748b !important;
+}
+
+/* Chatbot HTML content styling */
+.chatbot-html-content h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  color: inherit;
+}
+.chatbot-html-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+  color: inherit;
+}
+.chatbot-html-content ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.chatbot-html-content ol {
+  list-style-type: decimal;
+  margin-left: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.chatbot-html-content li {
+  margin-bottom: 0.2rem;
+}
+.chatbot-html-content b, .chatbot-html-content strong {
+  font-weight: 700;
+}
+.chatbot-html-content p {
+  margin-bottom: 0.4rem;
+}
+.chatbot-html-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+.chatbot-html-content th, .chatbot-html-content td {
+  border: 1px solid #e2e8f0;
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+}
+.chatbot-html-content th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+html.dark .chatbot-html-content th {
+  background-color: #334155 !important;
+  border-color: #475569 !important;
+  color: #f8fafc !important;
+}
+html.dark .chatbot-html-content td {
+  border-color: #475569 !important;
+}
